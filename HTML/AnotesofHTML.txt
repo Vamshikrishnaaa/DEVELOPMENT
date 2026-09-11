@@ -32,14 +32,14 @@ this is used to generate the boiler plate code easily in html , ! this symbol is
 `ATTRIBUTES`
 - are used to add more info to the tag , just like above added a type attribute
 
- `ANCHOR TAG`
+ `ANCHOR TAG <a> </a>`
 - used to add link to a text 
   <a href="link">texthere </a>
   href means hypertext reference
     - you can either use absolute links (or)
     - we can also use relative links meaning we can access the other page of the same website here (page linking)
 
-`IMAGE ELEMENT`
+`IMAGE ELEMENT <img src="" alt""/>`
 - one of the only tag which uses single tag and no terminator tag
   <img src="image.png" alt="Random image height="EXAMPLEpx" width="EXAMPLEpx">
   - image.png should exist in the same folder as this html file (or) paste the 
@@ -47,3 +47,61 @@ this is used to generate the boiler plate code easily in html , ! this symbol is
   of a picture directly from web
   - that "random image" is a text to say what picture was here in case image
   fails to load
+
+`Br tag <br>`
+- its a line breaker <br>
+
+`Basic tags`
+-Bold <b> </b>
+-Italic<i></i>
+-Underline <u></u>
+
+`Comments`
+<!-- This a comment --> , also we can use ctrl+/
+
+`NOTE`
+HTML IS NOT CASE SENSITIVE
+
+
+```LEVEL2```
+
+`BLOCK ELEMENTS`
+-elements which take up the whole line whose size is same as the elements size
+  ex- header , paragraph 
+
+`Inline elements`
+elements which only take up as much space as their size 
+  ex- anchor tag,image
+
+`Div element <div>`
+Content Division element
+ -its a block element
+ -so any inline elements can be grouped together and 
+  made into block element using <div> </div>
+  ex- images and links (using anchor tag) are inlines , can be converted into
+    block element 
+
+`Span element <span>`
+it prevents a block element from occupying a whole line in the page 
+
+`Horizontal line tag <hr>`
+creates a line
+
+`<sub> and <sup>`
+subscript and superscript tags
+
+`<form> tag`
+to create forms
+    -action attribute
+    which helps in backend processes like storing the data 
+    , and actions done under the hood\
+
+    -<input type="" placeholder="">
+     types - number,text,password,time 
+    -<label id=""> </label> this is used to connect all elements
+    of a input type like ex pass in one block
+    also id -this is something that is used to connect labels
+      and input tag in two differet lines
+
+
+
